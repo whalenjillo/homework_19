@@ -1,0 +1,185 @@
+nav {
+    background-color:whitesmoke;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.button {
+    background-color: purple;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  /* unvisited link */
+a:link {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: purple;
+    text-decoration: none;
+  }
+ 
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid purple;
+  }
+  
+  .button1:hover {
+    background-color: purple;
+    color: white;
+  }
+
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid purple;
+  }
+  
+  .button2:hover {
+    background-color: purple;
+    color: white;
+  }
+
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid purple;
+  }
+  
+  .button3:hover {
+    background-color: purple;
+    color: white;
+  }
+
+.menu-items a {
+font-size: 12px;
+color: purple;
+/* font-family: sans-serif; */
+font-weight: Bold;
+margin: 30px;
+text-align: center;
+text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    position: sticky;
+}
+
+#section1 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#section2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.skillSection {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.skillSection2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+
+.skillset {
+    margin: 40px;
+}
+
+.skillset2 {
+    margin: 60px;
+}
+
+.workSection {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.caseStudycopy {
+    margin-left: 20px;
+}
+
+.download-copy {
+    font-size: 13px;   
+    color:purple;
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    text-align: right;
+}
+
+.download-icon {
+    text-align: right;
+}
+
+.download-resume-bar {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-top: 5%;
+}
+
+footer {
+    background-color: purple;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer-copy {
+    font-size: 10px;   
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    }
+
+.footer-items a {
+text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+}

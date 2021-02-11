@@ -1,0 +1,99 @@
+nav {
+    background-color:whitesmoke;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items a {
+font-size: 12px;
+color: purple;
+/* font-family: sans-serif; */
+font-weight: Bold;
+margin: 30px;
+text-align: center;
+text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:white;
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid white (0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.gallery-container {
+    border: 3px solid #fff;
+    padding: 10px;
+    }
+
+.gallery-child {
+    /* width: 20%; */
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* .gallery:hover {
+    border: 1px solid #777;
+    } */
+
+.gallery-copy {
+padding: 10px;
+text-align: center;
+/* font-family: Arial, Helvetica, sans-serif; */
+font-size: 13px;
+color: darkgrey;
+font-weight: bold;
+font-variant-caps: normal;
+} 
+
+.download-copy {
+    font-size: 13px;   
+    color:purple;
+    /* font-family: sans-serif; */
+    font-weight: bold;
+    text-align: right;
+}
+
+.download-icon {
+    text-align: right;
+}
+
+.download-resume-bar {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-top: 5%;
+}
+
+footer {
+    background-color: purple;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer-copy {
+    font-size: 10px;   
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    }
+
+.footer-items a {
+text-align: center;
+}
+
